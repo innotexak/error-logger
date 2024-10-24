@@ -1,0 +1,22 @@
+{
+  "name": "c-instance-error-logger",
+  "version": "1.0.0",
+  "description": "Error logger package for your app",
+  "main": "dist/app.js",
+  "author": "Innocent Akuh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
